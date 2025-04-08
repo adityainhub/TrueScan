@@ -17,18 +17,18 @@ const TeamSection: React.FC = () => {
   const teamMembers: TeamMember[] = [
     {
       name: "Kumar Aditya",
-      role: "Founder & CEO",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      role: "Backened Integration",
+      image: "public/aditya.jpg",
       socialLinks: {
         linkedin: "#",
-        github: "#",
+        github: "https://www.github.com/adityainhub",
         twitter: "#",
       }
     },
     {
       name: "Tejas",
-      role: "CTO",
-      image: "https://randomuser.me/api/portraits/men/47.jpg",
+      role: "Backend developer",
+      image: "public/tejas.jpg",
       socialLinks: {
         linkedin: "#",
         github: "#",
@@ -37,8 +37,8 @@ const TeamSection: React.FC = () => {
     },
     {
       name: "Disha",
-      role: "Head of AI Research",
-      image: "https://randomuser.me/api/portraits/women/44.jpg",
+      role: "Research and backend",
+      image: "\\public\\disha.jpg",
       socialLinks: {
         linkedin: "#",
         github: "#",
@@ -47,8 +47,8 @@ const TeamSection: React.FC = () => {
     },
     {
       name: "Nishant",
-      role: "Lead Developer",
-      image: "https://randomuser.me/api/portraits/men/67.jpg",
+      role: "Frontend developer",
+      image: "public/nishant.jpg",
       socialLinks: {
         linkedin: "#",
         github: "#",
