@@ -7,7 +7,7 @@ import { CheckCircle, AlertCircle, Search, Link, FileText, Info } from "lucide-r
 import { toast } from "sonner";
 import ScrollAnimation from "./ScrollAnimation";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://backend-truescan-production.up.railway.app:8000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://truescan3-e8g2gubgbzced8ha.southindia-01.azurewebsites.net/';
 
 interface UrlCheckerProps {
   isHeroSection?: boolean;
